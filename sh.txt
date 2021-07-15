@@ -1,0 +1,4 @@
+find -name "代码" | xargs -i sh -c 'cd {}/..;mv 代码 code;cd -'
+
+去除指定后缀
+ls | cut -d . -f1 | xargs -i sh -c 'mv {}.md {}'
