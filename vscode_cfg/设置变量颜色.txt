@@ -1,0 +1,29 @@
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true, // enable for all themes
+        "rules": {
+            //"*.static": {
+            //    "foreground": "#ff0000",
+            //    "fontStyle": "bold"
+            //},
+            //"property": {   //属性
+            //    "foreground": "#10ec98",
+            //    "fontStyle": "bold"
+            //},
+            //"macro": {      //宏
+            //    "foreground": "#ec106c",
+            //    "fontStyle": "bold"
+            //},
+            //"function": {   //函数
+            //    "foreground": "#5491e0",
+            //    "fontStyle": "bold"
+            //},
+            //"variable.local": { //局部变量
+            //    "foreground": "#2271da",
+            //    "fontStyle": "bold"
+            //},
+            "variable.global": { //全局变量
+                "foreground": "#0c9646",
+                "fontStyle": "bold"
+            }
+        }
+    },
