@@ -1,0 +1,6 @@
+	"oneDarkPro.editorTheme": "vscode",
+	"workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "editor.background": "#181A1F"
+        }
+    }
