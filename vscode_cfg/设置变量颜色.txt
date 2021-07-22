@@ -1,3 +1,11 @@
+    "editor.tokenColorCustomizations": {
+        //"comments": "#82e0aa", // 注释
+        //"keywords": "#0a0", // 关键字
+        "variables": "#dcdcaa", // 变量名
+        //"strings": "#e2d75dbd", // 字符串
+        //"functions": "#5b99fcc9", // 函数名
+        //"numbers": "#AE81FF" // 数字
+      },
     "editor.semanticTokenColorCustomizations": {
         "enabled": true, // enable for all themes
         "rules": {
@@ -10,20 +18,24 @@
             //    "fontStyle": "bold"
             //},
             "macro": {      //宏
-                "foreground": "#ec106c",
+                "foreground": "#E06C75",
                 //"fontStyle": "bold"
             },
-            "function": {   //函数
-                "foreground": "#dcdcaa",
-                //"fontStyle": "bold"
-            },
+            //"function": {   //函数
+            //    "foreground": "#dcdcaa",
+            //    "fontStyle": "bold"
+            //},
             //"variable.local": { //局部变量
-            //    "foreground": "#2271da",
+            //    "foreground": "#dcdcaa",
             //    "fontStyle": "bold"
             //},
             "variable.global": { //全局变量
                 "foreground": "#008b8b",
                 //"fontStyle": "bold"
+            },
+            "parameter": {
+                //"foreground": "#dcdcaa",
+                "underline": true
             }
         }
     },
